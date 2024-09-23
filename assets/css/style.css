@@ -42,8 +42,8 @@ li {
 
 
 @font-face {
-  font-family: "Brandon Grotesque";
-  src: local("Brandon Grotesque"), url("/assets/font/BrandonGrotesque-Black.ttf") format("truetype");
+  font-family: "Mulish";
+  src: local("Mulish"), url("/assets/font/Mulish-Black.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
@@ -520,14 +520,14 @@ body .container-xl {
 }
 
 .section-endow .container-xl>.text-title {
-  font-size: 130px;
+  font-size: 140px;
   font-weight: 900;
   line-height: 98px;
   position: absolute;
   bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
-  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
   color: transparent;
   width: 100%;
   padding: 0px 23px;
@@ -536,6 +536,7 @@ body .container-xl {
   text-align: center;
   opacity: 0.5;
   max-width: 1550px;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -634,6 +635,7 @@ body .container-xl {
 .section-admissions .text-content {
   color: #FFFFFF;
   margin-bottom: 48px;
+  font-weight: 300;
 }
 
 .section-admissions .item-admissions a {
@@ -1372,8 +1374,8 @@ body .container-xl {
   }
 
   .header .stuck.position-fixed .header-main .logo {
-    width: 20%;
-  }
+    width: 35%;
+}
 
   .offcanvas-mobile .offcanvas-header .logo {
     max-width: 80%;
