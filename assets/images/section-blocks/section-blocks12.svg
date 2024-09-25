@@ -1,0 +1,26 @@
+<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2219_1472)">
+<mask id="mask0_2219_1472" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="24">
+<path d="M0.5 1.90735e-06H24.5V24H0.5V1.90735e-06Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_2219_1472)">
+<path d="M12.5 16.2188C10.1736 16.2188 8.28125 14.3264 8.28125 12C8.28125 9.67364 10.1736 7.78125 12.5 7.78125C14.8264 7.78125 16.7188 9.67364 16.7188 12C16.7188 14.3264 14.8264 16.2188 12.5 16.2188Z" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M8.28125 12C8.28125 10.835 9.22564 9.89062 10.3906 9.89062C11.5556 9.89062 12.5 10.835 12.5 12" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M16.7188 12C16.7188 13.165 15.7744 14.1094 14.6094 14.1094C13.4444 14.1094 12.5 13.165 12.5 12" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M8.46961 18.1355L5.75784 14.9037" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M6.3151 19.9433L3.60333 16.7116" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M19.2421 9.09625L16.5304 5.8645" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M21.3966 7.28845L18.6849 4.0567" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M5.75787 9.09625L8.46964 5.8645" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M3.60336 7.28845L6.31513 4.0567" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M16.5304 18.1355L19.2421 14.9037" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M18.6849 19.9433L21.3966 16.7116" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M23.7969 21.8438H1.20312V2.15625H23.7969V21.8438Z" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_2219_1472">
+<rect width="24" height="24" fill="white" transform="translate(0.5)"/>
+</clipPath>
+</defs>
+</svg>

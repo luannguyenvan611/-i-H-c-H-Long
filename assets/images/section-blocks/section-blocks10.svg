@@ -1,0 +1,30 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_2219_1360" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<path d="M23.25 23.25V0.750002H0.75V23.25H23.25Z" fill="white" stroke="white" stroke-width="1.5"/>
+</mask>
+<g mask="url(#mask0_2219_1360)">
+<path d="M23.2939 20.4189H0.704578V3.57535H23.2939V20.4189Z" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M10.5929 3.57535V10.5908H0.704601" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M23.2939 10.5908H13.4056V3.57535" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M0.704586 13.4034H10.5929V20.4189" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M23.2939 13.4034H13.4056V20.4189" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M7.76928 13.4034L0.704613 18.6711" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+<path d="M20.95 3.57532L13.4056 9.20074" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M10.5929 14.7934L3.04849 20.4188" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<mask id="mask1_2219_1360" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<path d="M23.25 23.25V0.750002H0.75V23.25H23.25Z" fill="white" stroke="white" stroke-width="1.5"/>
+</mask>
+<g mask="url(#mask1_2219_1360)">
+<path d="M23.2939 5.32304L16.2292 10.5908" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M7.76929 10.5906L0.704567 5.32292" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+<path d="M20.95 20.4188L13.4056 14.7934" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M10.5929 9.20078L3.04849 3.57535" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+<mask id="mask2_2219_1360" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<path d="M23.25 23.25V0.750002H0.75V23.25H23.25Z" fill="white" stroke="white" stroke-width="1.5"/>
+</mask>
+<g mask="url(#mask2_2219_1360)">
+<path d="M23.2939 18.6711L16.2293 13.4034" stroke="#003E83" stroke-width="1.5" stroke-miterlimit="10"/>
+</g>
+</svg>

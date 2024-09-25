@@ -441,7 +441,7 @@ body .container-xl {
   color: #003E83;
   max-width: 336px;
   margin-top: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .section-introduce .text-content {
@@ -449,6 +449,7 @@ body .container-xl {
   text-align: justify;
   text-justify: inter-word;
   max-width: 336px;
+  font-weight: 400;
 }
 
 .section-introduce .text-see img {
@@ -549,34 +550,44 @@ body .container-xl {
 .section-blocks .list-blocks {
   display: grid !important;
   grid-template-columns: repeat(3, 1fr);
-  gap: 36px;
+  gap: 16px 30px;
 }
 
-.list-blocks.top {
+.section-blocks .list-blocks .inner-img {
+  width: 24px;
+  height: 24px;
+}
+
+.section-blocks .list-blocks .item-blocks {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-blocks .list-blocks .item-blocks span {
+  font-weight: 400;
+  color: #333333;
+}
+.section-blocks .list-blocks .item-blocks:hover span {
+  color: #003e83;
+  text-decoration: underline;
+}
+
+.section-blocks .blocks-wrapper.top {
   padding-bottom: 33px;
   margin-bottom: 33px;
   border-bottom: 1px solid #CFCFCF;
+  padding-top: 50px;
 }
 
-.section-blocks .item-blocks .inner-img {
-  width: 52px;
-  height: 52px;
-  margin-bottom: 20px;
-}
-
-.section-blocks .list-blocks .text-title {
+.section-blocks .blocks-wrapper > .text-title {
   font-size: 18px;
   font-weight: 800;
-  margin-bottom: 12px;
-}
-
-.section-blocks .list-blocks .link-block a {
+  line-height: 22.5px;
   color: #333333;
-  margin-bottom: 12px;
-}
-
-.section-blocks .list-blocks .link-block a:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 34px;
 }
 
 .section-blocks .col-left .text-title {
@@ -595,6 +606,7 @@ body .container-xl {
   max-width: 279px;
   text-align: justify;
   text-justify: inter-word;
+  font-weight: 400;
   /* Giúp khoảng cách giữa các từ dàn đều hơn */
 }
 
@@ -1077,6 +1089,7 @@ body .container-xl {
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  font-weight: 400;
 }
 
 .section-discover .col-right .inner-img img,
@@ -1740,9 +1753,13 @@ display: none;
     margin-top: 126px;
   }
 
+  .col-swiper.mobile .text-content {
+    font-weight: 400;
+  }
+
   .section-blocks .list-blocks {
     display: grid !important;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 25px;
   }
 
@@ -1750,9 +1767,6 @@ display: none;
     margin-bottom: 5px;
   }
 
-  .section-blocks .list-blocks .text-title {
-    font-size: 15px;
-  }
 
   .section-admissions .item-admissions a {
     padding: 10px;
