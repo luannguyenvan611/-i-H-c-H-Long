@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đại Học - Hạ Long</title>
+    <!-- Icon title -->
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/header/fav.svg" />
+    <!-- fontAwesome Css -->
+    <link rel="stylesheet" href="./assets/css/Library/fontawesome.min.css" />
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="./assets/css/Library/swiper-bundle.min.css" />
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/Library/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/Library/toast.css">
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="./assets/css/Library/jquery.fancybox.min.css">
+    <!-- Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Include Select2 CSS -->
+    <link href="./assets/css/Library/select2.css" rel="stylesheet" />
+
+    <!-- Style Css -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/strategic.css" />
+</head>
+
+
+<body>
+
+    <!-- Begin Header -->
+    <header class="header">
+        <div class="stuck">
+            <div class="header-top">
+                <div class="container-xl">
+                    <div class="flex-left">
+                        <div class="text-link">
+                            <a href="#">Thông báo 20 ngành tuyển sinh 2024 cập nhật liên tục TẠI ĐÂY !</a>
+                        </div>
+                    </div>
+
+                    <div class="flex-right">
+
+                        <div class="text-link">
+                            <a href="#">Tạp chí khoa học</a>
+                        </div>
+
+                        <div class="line"></div>
+
+                        <div class="text-link">
+                            <a href="#">Dấu ấn 10 năm HALOU</a>
+                        </div>
+
+                        <div class="img-language">
+                            <a href="#"><img src="./assets/images/header/header1.svg" alt=""></a>
+                            <a href="#"><img src="./assets/images/header/header2.svg" alt=""></a>
+                        </div>
+
+                        <div class="icon-search">
+                            <img src="./assets/images/header/header3.svg" alt="Search Icon">
+
+                            <div class="nav-dropdown" style="display: none;">
+                                <form action="">
+                                    <input type="text" placeholder="Tìm kiếm...">
+                                    <button><img src="./assets/images/header/header3.svg" alt="Search"></button>
+                                </form>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="header-main">
+                <div class="container-xl">
+                    <div class="icon-mobile" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                        aria-controls="offcanvasExample">
+                        <img src="./assets/images/header/icon-mobile.png" alt="">
+                    </div>
+                    <div class="logo">
+                        <a href=""><img src="/assets/images/header/Logo.png" alt=""></a>
+                    </div>
+
+                    <div class="icon-search mobile">
+                        <img src="./assets/images/header/header3.svg" alt="">
+                    </div>
+
+                    <div class="main-menu">
+                        <ul>
+                            <li><a href="#">Trang chủ</a></li>
+                            <li>
+
+                                <a class="active" href="#">
+                                    Giới thiệu
+                                    <div class="icon-menu">
+                                        <svg width="18" height="10" viewBox="0 0 18 10" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9 9.66667C8.80819 9.66667 8.61619 9.59336 8.46975 9.44692L0.969751 1.94692C0.676689 1.65386 0.676689 1.1793 0.969751 0.886423C1.26281 0.593548 1.73738 0.59336 2.03025 0.886423L9 7.85617L15.9698 0.886423C16.2628 0.59336 16.7374 0.59336 17.0303 0.886423C17.3231 1.17949 17.3233 1.65405 17.0303 1.94692L9.53025 9.44692C9.38381 9.59336 9.19181 9.66667 9 9.66667Z"
+                                                fill="#333333" />
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <ul class="sub-menu">
+                                    <li><a href="">Giới thiệu chung</a></li>
+                                    <li><a href="">Mục tiêu chiến lược</a></li>
+                                    <li><a href="">Sơ đồ cơ cấu tổ chức</a></li>
+                                    <li><a href="">Cột mốc & thành tựu</a></li>
+                                    <li><a href="">Ban Giám hiệu</a></li>
+                                    <li>
+                                        <a href="">Các đơn vị trực thuộc</a>
+
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="">Khoa Chuyên môn</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="">Khoa Ngoại ngữ</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="">Phòng Chức năng</a></li>
+                                            <li><a href="">Trung tâm</a></li>
+                                            <li><a href="">Tổ chức đoàn thể</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li><a href="#">Ngành học</a></li>
+                            <li><a href="#">Giảng viên</a></li>
+                            <li><a href="#">Sinh viên</a></li>
+                            <li><a href="#">Nghiệp vụ</a></li>
+                            <li><a href="#">Tuyển sinh 2024</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="nav-dropdown mobile" style="display: none;">
+                        <form action="">
+                            <input type="text" placeholder="Tìm kiếm...">
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Begin Content -->
+    <main class="home">
+
+        <!-- Begin Section path -->
+        <section class="section section-path">
+            <div class="container-xl">
+                <!-- Breadcrumb Navigation -->
+                <nav class="breadcrumb">
+                    <a href="#">Home</a>
+                    /
+                    <span>Giới thiệu</span>
+                </nav>
+            </div>
+        </section>
+        <!-- End Section path -->
+
+        <!-- Begin Section banner -->
+        <section class="section section-banner">
+            <div class="inner-img"><img src="./assets/images/section-banner/section-banner2.png" alt=""></div>
+
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col col-12 col-md-7">
+                        <h2 class="text-title">Trường Đại học Hạ Long</h2>
+                        <p class="text-content">Sứ mệnh đào tạo thế hệ trẻ trở thành “công dân toàn cầu”, có khả năng
+                            phát
+                            huy năng lực sáng tạo, tinh thần khởi nghiệp và có trách nhiệm với xã hội. Sinh viên tốt
+                            nghiệp
+                            từ UHL sẵn sàng gặt hái thành công và thay đổi tương lai.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- End Section banner -->
+
+        <!-- Begin Section strategic -->
+        <section class="section section-strategic">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col col-12 col-md-6 col-left">
+                        <h2 class="text-title">Mục tiêu chiến lược</h2>
+                        <p class="text-content">3 mục tiêu chiến lược của Trường Đại học Hạ Long giai đoạn phát triển
+                            đến năm 2025, tầm nhìn 2030</p>
+                        <div class="inner-img"><img src="./assets/images/section-strategic/section-strategic1.png"
+                                alt=""></div>
+                    </div>
+
+                    <div class="col col-12 col-md-6 col-right">
+                        <div class="list-strategic">
+
+                            <div class="item-strategic">
+                                <h5 class="text-title">Trung tâm đào tạo nhân lực chất lượng cao</h5>
+                                <p class="text-content">Xây dựng, phát triển Trường Đại học Hạ Long trở thành trung tâm
+                                    đào tạo nguồn nhân lực chất lượng cao, nghiên cứu khoa học, chuyển giao công nghệ
+                                    hàng đầu của tỉnh Quảng Ninh</p>
+                            </div>
+
+                            <div class="item-strategic">
+                                <h5 class="text-title">tạo tác động lớn tại việt nam</h5>
+                                <p class="text-content">Trường Đại học Hạ Long hướng tới trở thành cơ sở đào tạo có uy
+                                    tín trong nước, trọng tâm là các lĩnh vực phục vụ trực tiếp cho phát triển kinh tế –
+                                    xã hội của tỉnh Quảng Ninh và cả nước</p>
+                            </div>
+
+                            <div class="item-strategic">
+                                <h5 class="text-title">đẩy mạnh phát triển ngành cốt lõi</h5>
+                                <p class="text-content">Trường Đại học Hạ Long tập trung đẩy mạnh phát triển giáo dục,
+                                    đào tạo trên 5 lĩnh vực chính: Du lịch, dịch vụ; Ngôn ngữ; Kỹ thuật, công nghệ; Xã
+                                    hội và nhân văn; nghệ thuật.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section strategic -->
+
+    </main>
+    <!-- End Content -->
+
+    <!-- Begin Footer -->
+    <footer class="footer">
+        <div class="container-xl">
+            <div class="footer-wrapper">
+
+                <div class="footer-top">
+                    <div class="logo"><img src="./assets/images/footer/footer1.svg" alt=""></div>
+
+                    <div class="list-contact">
+
+                        <div class="item-contact">
+                            <span>Đào tạo</span>
+                            <strong>(84 - 0203).3850304</strong>
+                        </div>
+
+                        <div class="item-contact">
+                            <span>Tuyển sinh</span>
+                            <strong>(84 - 0203).3850304</strong>
+                        </div>
+
+                        <div class="item-contact">
+                            <span>Hỗ trợ sinh viên</span>
+                            <strong>(84 - 0203).3850304</strong>
+                        </div>
+
+                        <div class="item-contact">
+                            <span>Email</span>
+                            <strong>tonghop@daihochalong.edu.vn</strong>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+
+                    <div class="list-information">
+
+                        <div class="item-information">
+                            <h5 class="text-title">Về chúng tôi</h5>
+                            <div class="link-information">
+                                <a href="">Tin tức</a>
+                                <a href="">Sự kiện</a>
+                                <a href="">Tuyển dụng</a>
+                                <a href="">Đảm bảo chất lượng đào tạo</a>
+                                <a href="">Trung tâm khảo thí tiếng anh</a>
+                            </div>
+                        </div>
+
+                        <div class="item-information">
+                            <h5 class="text-title">Truy cập nhanh</h5>
+                            <div class="link-information">
+                                <a href="">Hệ thống Văn bản</a>
+                                <a href="">Hệ thống E-Learning</a>
+                                <a href="">Thư viện</a>
+                                <a href="">HUB</a>
+                                <a href="">E-job</a>
+                            </div>
+                        </div>
+
+                        <div class="item-information">
+                            <h5 class="text-title">Theo dõi</h5>
+                            <div class="link-information">
+                                <a href=""><span class="icon"><img src="./assets/images/footer/footer2.svg"
+                                            alt=""></span>Facebook</a>
+                                <a href=""><span class="icon"><img src="./assets/images/footer/footer3.svg"
+                                            alt=""></span>Youtube</a>
+                                <a href=""><span class="icon"><img src="./assets/images/footer/footer4.svg"
+                                            alt=""></span>Instagram</a>
+                                <a href=""><span class="icon"><img src="./assets/images/footer/footer5.svg"
+                                            alt=""></span>Tiktok</a>
+                            </div>
+                        </div>
+
+                        <div class="item-information">
+                            <h5 class="text-title">Các trường và khối đào tạo</h5>
+                            <div class="link-information">
+                                <a href="">Ngôn ngữ Nhật Bản</a>
+                                <a href="">Ngôn ngữ Hàn Quốc</a>
+                                <a href="">Ngôn ngữ Trung Quốc</a>
+                                <a href="">Ngôn ngữ Anh</a>
+                                <a href="">CNTT (Khoa học máy tính)</a>
+                                <a href="">Nuôi trồng thủy sản</a>
+                                <a href="">QL Tài nguyên & Môi trường</a>
+                            </div>
+                        </div>
+
+                        <div class="item-information">
+                            <h5 class="text-title">Fanpage</h5>
+
+                            <iframe
+                                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhalonguniversity%2F%3Flocale%3Dvi_VN&tabs=timeline&width=305px&height=130px&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                width="305px" height="130px" style="border:none;overflow:hidden" scrolling="no"
+                                frameborder="0" allowfullscreen="true"
+                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <div class="footer-coppy">
+                    <span>Copyright 2024 © UHL. All Rights Reserved</span>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Offcanvas mobile -->
+    <div class="offcanvas offcanvas-start offcanvas-mobile" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <div class="logo">
+                <a href=""><img src="/assets/images/header/Logo.png" alt=""></a>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="main-menu">
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li>
+                        <a class="active" href="#">
+                            Giới thiệu
+                            <div class="icon-menu">
+                                <svg width="18" height="10" viewBox="0 0 18 10" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9 9.66667C8.80819 9.66667 8.61619 9.59336 8.46975 9.44692L0.969751 1.94692C0.676689 1.65386 0.676689 1.1793 0.969751 0.886423C1.26281 0.593548 1.73738 0.59336 2.03025 0.886423L9 7.85617L15.9698 0.886423C16.2628 0.59336 16.7374 0.59336 17.0303 0.886423C17.3231 1.17949 17.3233 1.65405 17.0303 1.94692L9.53025 9.44692C9.38381 9.59336 9.19181 9.66667 9 9.66667Z"
+                                        fill="#333333" />
+                                </svg>
+                            </div>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="https://www.youtube.com/">Giới thiệu chung</a></li>
+                            <li><a href="">Mục tiêu chiến lược</a></li>
+                            <li><a href="">Sơ đồ cơ cấu tổ chức</a></li>
+                            <li><a href="">Cột mốc & thành tựu</a></li>
+                            <li><a href="">Ban Giám hiệu</a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="javascript:void(0)">Khoa Chuyên môn</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="">Khoa Ngoại ngữ</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Phòng Chức năng</a></li>
+                                    <li><a href="">Trung tâm</a></li>
+                                    <li><a href="">Tổ chức đoàn thể</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    Các đơn vị trực thuộc
+                                    <div class="icon-menu">
+                                        <svg width="18" height="10" viewBox="0 0 18 10" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9 9.66667C8.80819 9.66667 8.61619 9.59336 8.46975 9.44692L0.969751 1.94692C0.676689 1.65386 0.676689 1.1793 0.969751 0.886423C1.26281 0.593548 1.73738 0.59336 2.03025 0.886423L9 7.85617L15.9698 0.886423C16.2628 0.59336 16.7374 0.59336 17.0303 0.886423C17.3231 1.17949 17.3233 1.65405 17.0303 1.94692L9.53025 9.44692C9.38381 9.59336 9.19181 9.66667 9 9.66667Z"
+                                                fill="#333333" />
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            Khoa Chuyên môn
+                                            <div class="icon-menu">
+                                                <svg width="18" height="10" viewBox="0 0 18 10" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M9 9.66667C8.80819 9.66667 8.61619 9.59336 8.46975 9.44692L0.969751 1.94692C0.676689 1.65386 0.676689 1.1793 0.969751 0.886423C1.26281 0.593548 1.73738 0.59336 2.03025 0.886423L9 7.85617L15.9698 0.886423C16.2628 0.59336 16.7374 0.59336 17.0303 0.886423C17.3231 1.17949 17.3233 1.65405 17.0303 1.94692L9.53025 9.44692C9.38381 9.59336 9.19181 9.66667 9 9.66667Z"
+                                                        fill="#333333" />
+                                                </svg>
+                                            </div>
+                                        </a>
+
+                                        <ul class="sub-menu">
+                                            <li><a href="">Khoa Ngoại ngữ</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Phòng Chức năng</a></li>
+                                    <li><a href="">Trung tâm</a></li>
+                                    <li><a href="">Tổ chức đoàn thể</a></li>
+                                </ul>
+
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Ngành học</a></li>
+                    <li><a href="#">Giảng viên</a></li>
+                    <li><a href="#">Sinh viên</a></li>
+                    <li><a href="#">Nghiệp vụ</a></li>
+                    <li><a href="#">Tuyển sinh 2024</a></li>
+                    <li><a href="#">Thông báo 20 ngành tuyển sinh 2024 cập nhật liên tục TẠI ĐÂY !</a></li>
+                    <li><a href="#">Tạp chí khoa học</a></li>
+                    <li><a href="#">Dấu ấn 10 năm HALOU</a></li>
+                </ul>
+            </div>
+            <div class="img-language">
+                <a href="#"><img src="./assets/images/header/header1.svg" alt=""></a>
+                <a href="#"><img src="./assets/images/header/header2.svg" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Jquery JS -->
+    <script type="text/javascript" src="./assets/js/Library/jquery.min.js"></script>
+    <!-- Script Bootstrap -->
+    <script type="text/javascript" src="./assets/js/Library/bootstrap.bundle.min.js"></script>
+    <!-- Fancybox JS -->
+    <script type="text/javascript" src="./assets/js/Library/fancybox.js"></script>
+    <!-- select2 custom JS -->
+    <script type="text/javascript" src="./assets/js/select2-custom.js"></script>
+    <!-- Include Select2 JS -->
+    <script type="text/javascript" src="./assets/js/Library/select2.full.min.js"></script>
+
+    <!-- Scroll Header Fixed -->
+    <script>
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('.header .stuck');
+            var scrollPosition = window.scrollY;
+            var scrollThreshold = 300;
+
+            if (scrollPosition > scrollThreshold) {
+                header.classList.add('position-fixed');
+            } else {
+                header.classList.remove('position-fixed');
+            }
+        });
+    </script>
+    <!-- Click Search -->
+    <script>
+        document.querySelectorAll('.icon-search').forEach(function (iconSearch) {
+            iconSearch.addEventListener('click', function (event) {
+                const isMobile = iconSearch.classList.contains('mobile');
+                const dropdown = document.querySelector(isMobile ? '.nav-dropdown.mobile' : '.nav-dropdown');
+                dropdown.style.display = (dropdown.style.display === "block") ? "none" : "block";
+                event.stopPropagation();
+            });
+        });
+
+        document.addEventListener('click', function (event) {
+            document.querySelectorAll('.nav-dropdown').forEach(function (dropdown) {
+                const iconSearch = document.querySelector(dropdown.classList.contains('mobile') ? '.icon-search.mobile' : '.icon-search');
+                if (!iconSearch.contains(event.target) && !dropdown.contains(event.target)) {
+                    dropdown.style.display = "none";
+                }
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Js click menu mobile -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuItems = document.querySelectorAll(".main-menu li");
+
+            menuItems.forEach(item => {
+                item.addEventListener("click", function (event) {
+                    event.stopPropagation();
+
+                    const subMenu = item.querySelector(":scope > .sub-menu");
+                    const iconMenu = item.querySelector(".icon-menu"); // Updated selector for .icon-menu
+
+                    // Toggle the sub-menu
+                    if (subMenu) {
+                        subMenu.classList.toggle("active");
+
+                        // Toggle the .icon-menu active state
+                        if (iconMenu) {
+                            iconMenu.classList.toggle("active");
+                        }
+
+                        // Remove active class from sibling sub-menus and icons
+                        const siblingItems = item.parentElement.querySelectorAll(":scope > li");
+                        siblingItems.forEach(sibling => {
+                            if (sibling !== item) {
+                                const siblingSubMenu = sibling.querySelector(":scope > .sub-menu");
+                                const siblingIconMenu = sibling.querySelector(".icon-menu");
+
+                                if (siblingSubMenu) {
+                                    siblingSubMenu.classList.remove("active");
+                                }
+                                if (siblingIconMenu) {
+                                    siblingIconMenu.classList.remove("active"); // Remove active from sibling .icon-menu
+                                }
+                            }
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+
+
+
+
+
+</body>
+
+</html>
