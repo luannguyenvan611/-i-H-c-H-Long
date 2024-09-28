@@ -710,6 +710,31 @@ body .container-xl {
     padding: 70px 0px 42px 0px;
 }
 
+
+/* Css fancybox ****************************************************************************************************************/
+
+.fancybox-container .fancybox-content {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+  }
+  
+  .fancybox-container .fancybox-content .content-img {
+    z-index: 949489489;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    font-weight: 800;
+  }
+  
+  .overlay-text {
+    display: none;
+  }
+
 /* Css responsive ****************************************************************************************************************/
 
 @media only screen and (max-width: 1445px) {}
@@ -827,6 +852,7 @@ body .container-xl {
 
     .section-about .row.top .text-title {
         margin-top: 0px;
+        margin-bottom: 10px;
     }
 
 
@@ -923,11 +949,46 @@ body .container-xl {
         padding: 20px 0px;
     }
 
+    .section-discover .col-top .text-title,
+    .section-philosophy .item-philosophy .text-title,
+    .section-philosophy .col-left .text-title,
+    .section-value .container-xl>.text-title,
+    .section-about .row.top .text-title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .section-discover .col-top .text-title {
+        margin-bottom: 0px;
+    }
+
+    .section-endow .text-question {
+        font-size: 24px;
+        line-height: 30px;
+        margin-left: 0px;
+    }
+
+    .section-endow .text-question strong {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .section-discover .col-top {
+        margin-bottom: 10px;
+    }
+
 
 
 }
 
 @media only screen and (max-width: 550px) {
+
+    .section-about {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
 
     .section-about .row.bottom .inner-img {
         width: 40px;
@@ -948,7 +1009,25 @@ body .container-xl {
 
     .section-endow {
         padding: 20px 0px 34px 0px;
-        margin-top: 126px;
+        margin-top: 180px;
+    }
+
+    .section-endow .col-top {
+        bottom: calc(107% + 66px);
+    }
+
+    .section-endow .text-question {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .section-endow .text-question strong {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .section-philosophy {
+        padding: 20px 0px 42px 0px;
     }
 
     .section-endow .col-right {
@@ -963,7 +1042,7 @@ body .container-xl {
 
     .section-endow .col-left>.inner-img {
         width: 70%;
-        margin-top: -160px;
+        margin-top: -170px;
     }
 
     .section-discover .col-swiper .col-left .inner-img {
@@ -983,6 +1062,51 @@ body .container-xl {
     .section-discover .col-swiper .col-right .inner-img:nth-child(2) {
         padding-bottom: 118.2%;
     }
+
+    .section-discover .col-top .text-title,
+    .section-philosophy .item-philosophy .text-title,
+	.section-philosophy .col-left .text-title,
+	.section-value .container-xl>.text-title,
+	.section-about .row.top .text-title {
+		font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 16px;
+	}
+
+    .section-about .row.bottom .text-title {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    .section-endow .text-box .text-title {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+
+    .section-about .row.bottom .icon-box {
+        padding: 8px !important;
+    }
+
+    .section-philosophy .list-philosophy {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .section-philosophy .item-philosophy .text-title {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 0px;
+        left: 10px;
+    }
+
+    .section-value .item-value .text-title {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+
+    .section-value .item-value .inner-img {
+        margin-bottom: 8px;
+    }
 }
 
 @media only screen and (max-width: 420px) {
@@ -996,3 +1120,18 @@ body .container-xl {
         margin-bottom: 2px;
     }
 }
+
+@media only screen and (max-width: 350px) {
+    .section-banner .container-xl .text-content {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+}
+
+
+
+
+    

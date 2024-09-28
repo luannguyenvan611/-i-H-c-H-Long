@@ -844,3 +844,12 @@ body .container-xl {
 
 
 }
+
+
+@media only screen and (max-width: 350px) {
+  body .container-xl {
+      max-width: var(--widthDefault) !important;
+      padding: 0px 10px !important;
+  }
+
+}

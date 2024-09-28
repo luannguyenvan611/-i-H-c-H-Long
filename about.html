@@ -457,6 +457,11 @@
                         <div class="inner-img">
                             <a href="./assets/images/section-discover/section-discover7.png" data-fancybox="gallery">
                                 <img src="./assets/images/section-discover/section-discover7.png" alt="">
+                                <p class="overlay-text">Không chỉ xoay quanh học tập, đời sống tại UHL cũng vô cùng đa dạng và
+									sôi động.
+									Tất cả tài năng, sở thích và mong muốn của bạn đều được lắng nghe. Tại UHL, bạn sẽ luôn được
+									đồng hành
+									để trở thành phiên bản tốt nhất của chính mình</p>
                             </a>
                         </div>
                     </div>
@@ -512,6 +517,11 @@
                                                     data-fancybox="swiper-gallery">
                                                     <img src="./assets/images/section-discover/section-discover7.png"
                                                         alt="">
+                                                        <p class="overlay-text">Không chỉ xoay quanh học tập, đời sống tại UHL cũng vô cùng đa dạng và
+                                                            sôi động.
+                                                            Tất cả tài năng, sở thích và mong muốn của bạn đều được lắng nghe. Tại UHL, bạn sẽ luôn được
+                                                            đồng hành
+                                                            để trở thành phiên bản tốt nhất của chính mình</p>    
                                                 </a>
                                             </div>
                                         </div>
@@ -939,6 +949,26 @@
             });
         });
     </script>
+    <!-- Content fancybox -->
+    <script>
+        $(document).ready(function () {
+    $('[data-fancybox]').fancybox({
+        afterShow: function (instance, current) {
+            var overlayText = $(current.opts.$orig).find('.overlay-text').text();
+            if ($(current.$content).find('.content-img').length === 0) {
+                var textImg = $('<div class="content-img">').text(overlayText);
+                if (overlayText.trim()) {
+                    textImg.css('padding', '8px'); 
+                } else {
+                    textImg.css('padding', '0px');
+                }
+                $(current.$content).append(textImg);
+            }
+        }
+    });
+    });
+    </script>
+
 
 
 

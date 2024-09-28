@@ -140,7 +140,7 @@ body {
 
 body {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 24px;
   color: #333333;
   font-family: 'Mulish', sans-serif;
@@ -1007,8 +1007,29 @@ body .container-xl {
   transform: rotate(-90deg);
 }
 
+/* Css fancybox ****************************************************************************************************************/
 
+.fancybox-container .fancybox-content {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  justify-content: center;
+  align-items: end;
+  overflow: hidden;
+}
 
+.fancybox-container .fancybox-content .content-img {
+  z-index: 949489489;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  font-weight: 800;
+}
+
+.overlay-text {
+  display: none;
+}
 
 /* Css responsive ****************************************************************************************************************/
 
@@ -1489,3 +1510,5 @@ display: none;
     line-height: 22px;
 }
 }
+
+
