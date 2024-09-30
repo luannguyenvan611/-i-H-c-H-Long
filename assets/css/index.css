@@ -202,7 +202,7 @@ body .container-xl {
 
 .header .stuck.position-fixed .header-main .logo {
   width: 15.8%;
-  max-width: 254px;
+  max-width: 230px;
 }
 
 @keyframes fixed-header {
@@ -363,8 +363,8 @@ body .container-xl {
 }
 
 .header-main .logo {
-  width: 21.8%;
-  max-width: 254px;
+  width: 21.6%;
+  max-width: 230px;
 }
 
 .header-main .main-menu>ul {
@@ -399,9 +399,9 @@ body .container-xl {
 }
 
 .header-main .main-menu ul a svg {
-  width: 16.5px;
-  height: 9px;
-  margin-left: 7.5px;
+  width: 13.5px;
+  height: 8px;
+  margin-left: 4.5px;
   margin-top: -4px;
 }
 
@@ -418,11 +418,11 @@ body .container-xl {
 }
 
 
-.header-main .main-menu>ul>li:last-child>a {
+/* .header-main .main-menu>ul>li:last-child>a {
   background-color: #FFD958;
   border-radius: 100px;
   padding: 1px 8px;
-}
+} */
 
 .header-main .main-menu>ul>li .sub-menu {
   list-style: none;
@@ -431,8 +431,8 @@ body .container-xl {
   background: #fff;
   padding: 0;
   top: 300%;
-  left: 0;
-  min-width: 264px;
+  right: 0px;
+  min-width: 200px;
   z-index: 99;
   visibility: hidden;
   opacity: 0;
@@ -598,6 +598,23 @@ body .container-xl {
 /* Css responsive ****************************************************************************************************************/
 
 
+@media only screen and (max-width: 1920px) {
+
+  .header-main .main-menu>ul>li:nth-last-child(1)>.sub-menu>li>.sub-menu>li:hover>.sub-menu, 
+  .header-main .main-menu>ul>:nth-last-child(1)>.sub-menu>li:hover>.sub-menu,
+  .header-main .main-menu>ul>li:nth-last-child(3)>.sub-menu>li>.sub-menu>li:hover>.sub-menu, 
+  .header-main .main-menu>ul>:nth-last-child(3)>.sub-menu>li:hover>.sub-menu,
+  .header-main .main-menu>ul>li:nth-last-child(2)>.sub-menu>li>.sub-menu>li:hover>.sub-menu, 
+  .header-main .main-menu>ul>:nth-last-child(2)>.sub-menu>li:hover>.sub-menu {
+    left: -101%;
+    opacity: 1;
+    visibility: visible;
+    max-width: 200px;
+  }
+}
+
+
+
 @media only screen and (max-width: 1445px) {}
 
 @media only screen and (max-width: 1400px) {
@@ -611,6 +628,7 @@ body .container-xl {
   transform: translateX(-50%);
 }
 
+
 }
 
 
@@ -620,6 +638,21 @@ body .container-xl {
   }
 
 }
+@media only screen and (max-width: 1150px) {
+  .header-main .main-menu ul a {
+    margin: 0px 7px;
+  }
+
+  .header-main .logo {
+    width: 15%;
+    max-width: 230px;
+}
+
+.header {
+  min-height: 109.5px;
+}
+}
+
 
 @media only screen and (max-width: 1025px) {
 
