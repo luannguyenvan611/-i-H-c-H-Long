@@ -232,6 +232,104 @@ body .container-xl {
     padding: 0px;
 }
 
+.section-contact .row.banner {
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1528px;
+}
+
+.section-contact .row.banner .col-left .inner-img {
+    position: relative;
+    padding-bottom: 106%;
+}
+
+.section-contact .row.banner .col-left .inner-img img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-contact .row.banner .col-right {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.section-contact .row.banner .col-right::after {
+    background: url(../../assets/images/section-contact/section-contact7.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    max-width: 380px;
+    height: 100%;
+    max-height: 300px;
+}
+
+
+.section-contact .row.banner .col-right > * {
+    max-width: 575px;
+}
+
+.section-contact .row.banner .col-right .text-title {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 62.5px;
+    color: #003E83;
+    margin-bottom: 24px;
+}
+
+.section-contact .row.banner .col-right .icon-box {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    margin-bottom: 40px;
+}
+
+.section-contact .row.banner .col-right .icon-box:last-child {
+    margin-bottom: 0px;
+}
+
+.section-contact .row.banner .col-right .box-text {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+}
+
+.section-contact .row.banner .col-right .box-text strong {
+    font-weight: 800;
+}
+
+.section-contact .row.banner .col-right .inner-img {
+    width: 36px;
+    min-width: 36px;
+    max-width: 36px;
+    height: 36px;
+    margin-right: 25px;
+}
+
+.section-contact .row.form #form {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+}
+
+
+
 /* Css responsive ****************************************************************************************************************/
 
 @media only screen and (max-width: 1445px) {}
