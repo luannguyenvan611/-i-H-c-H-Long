@@ -808,9 +808,6 @@ body .container-xl {
 
 @media only screen and (max-width: 550px) {
 
-	.section-path .breadcrumb span {
-        line-height: 18px;
-    }
 
 	.section-specialized .col-right .new-post .text-category {
 		font-size: 12px;

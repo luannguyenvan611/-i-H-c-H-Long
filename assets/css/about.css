@@ -1107,9 +1107,7 @@ body .container-xl {
     .section-value .item-value .inner-img {
         margin-bottom: 8px;
     }
-    .section-path .breadcrumb span {
-        line-height: 18px;
-    }
+
 }
 
 @media only screen and (max-width: 420px) {

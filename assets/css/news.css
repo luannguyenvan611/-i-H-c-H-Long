@@ -892,9 +892,6 @@ color: white;
 
 @media only screen and (max-width: 550px) {
 
-    .section-path .breadcrumb span {
-        line-height: 18px;
-    }
 
     .section-post .blog-post {
         grid-template-columns: repeat(1, 1fr);

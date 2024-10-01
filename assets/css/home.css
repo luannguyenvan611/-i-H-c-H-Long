@@ -597,6 +597,7 @@ body .container-xl {
   border-radius: 10px;
   overflow: hidden;
   margin-right: 28px;
+  min-width: 162px;
 }
 
 .section-news .col-right .inner-img img {
@@ -1498,9 +1499,6 @@ display: none;
     margin-bottom: 5px;
   }
 
-  .section-path .breadcrumb span {
-    line-height: 18px;
-}
 
 }
 

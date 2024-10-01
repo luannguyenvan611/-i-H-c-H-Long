@@ -678,16 +678,14 @@ body .container-xl {
 
 @media only screen and (max-width: 1000px) {
 
+  .Offcanvas-sub-menu .sub-menu li .icon-menu,
   .offcanvas-mobile .main-menu ul li .icon-menu {
     width: max-content;
         display: flex;
         align-items: center;
         max-width: max-content;
     margin-left: 7.5px;
-    transition: all 0.3s linear;
-  }
-  .offcanvas-mobile .main-menu ul li .icon-menu.active {
-    transform: rotate(180deg);
+    transform: rotate(-90deg);
   }
 
   .header .icon-search.mobile,
@@ -721,11 +719,28 @@ body .container-xl {
     margin: auto;
   }
 
+  .Offcanvas-sub-menu .offcanvas-header {
+    border-bottom: 1px solid #d1d1d1;
+  }
+
+  .Offcanvas-sub-menu .btn-close,
   .offcanvas-mobile .btn-close {
     opacity: 1;
     background: transparent url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23003E83'><path d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/></svg>") center / 1em auto no-repeat;
   }
 
+  .Offcanvas-sub-menu .button-back {
+    border: none;
+    background-color: transparent;
+    transform: rotate(90deg);
+  }
+
+  .Offcanvas-sub-menu .button-back svg path {
+    fill:#003E83;
+  }
+
+
+  .Offcanvas-sub-menu .sub-menu a,
   .offcanvas-mobile .main-menu a {
     color: #333333;
     font-size: 16px;
@@ -733,10 +748,31 @@ body .container-xl {
     display: -webkit-flex;
     display: -ms-flexbox;
     align-items: center;
+    justify-content: space-between;
+  }
+  .Offcanvas-sub-menu .sub-menu a .number-sub,
+  .offcanvas-mobile .main-menu a .number-sub {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    align-items: center;
   }
 
+  .Offcanvas-sub-menu .sub-menu a .number-sub p,
+  .offcanvas-mobile .main-menu a .number-sub p {
+    margin-bottom: 0px;
+    margin-top: -2px;
+  }
+
+  .Offcanvas-sub-menu .sub-menu li,
   .offcanvas-mobile .main-menu > ul > li {
-    margin-bottom: 12px;
+    margin-bottom: 7px;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 7px;
+  }
+
+  .Offcanvas-sub-menu .sub-menu li:last-child,
+  .offcanvas-mobile .main-menu > ul > li:last-child {
+    border-bottom: none;
   }
 
   .offcanvas-mobile .main-menu a.active svg path {
@@ -747,9 +783,15 @@ body .container-xl {
     color: #003E83;
     font-weight: 900;
   }
+  .Offcanvas-sub-menu .sub-menu li svg,
   .offcanvas-mobile .main-menu ul li svg {
     width: 14px;
     height: 8px;
+  }
+
+  .Offcanvas-sub-menu .offcanvas-header h5 {
+    color: #003E83;
+    font-weight: 900;
   }
   .offcanvas-mobile .main-menu > ul > li .sub-menu {
     position: relative;

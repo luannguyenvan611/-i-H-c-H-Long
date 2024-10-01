@@ -588,10 +588,6 @@ text-transform: uppercase;
 
 @media only screen and (max-width: 550px) {
 
-    .section-path .breadcrumb span {
-        line-height: 18px;
-    }
-
     .section-strategic .col-right .item-strategic {
         padding-bottom: 12px;
         margin-bottom: 12px;
