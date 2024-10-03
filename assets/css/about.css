@@ -508,6 +508,12 @@ body .container-xl {
     height: 100%;
 }
 
+/* Css section-philosophy ****************************************************************************************************************/
+
+.section-philosophy {
+    padding: 70px 0px 42px 0px;
+}
+
 .section-philosophy .list-philosophy {
     padding-bottom: 76.6%;
     position: relative;
@@ -702,13 +708,6 @@ body .container-xl {
     flex-direction: column;
 }
 
-
-
-/* Css section-philosophy ****************************************************************************************************************/
-
-.section-philosophy {
-    padding: 70px 0px 42px 0px;
-}
 
 
 /* Css fancybox ****************************************************************************************************************/
@@ -1128,6 +1127,21 @@ body .container-xl {
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
         overflow: hidden;
+    }
+
+    .section-endow .text-question {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .section-endow .text-question strong {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .section-philosophy .item-philosophy .text-title {
+        font-size: 14px;
+        line-height: 17px;
     }
 
 }
