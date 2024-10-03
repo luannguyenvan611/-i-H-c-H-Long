@@ -62,11 +62,6 @@ p {
     margin-bottom: 15px;
 }
 
-.column-reverse {
-    flex-direction: column-reverse;
-}
-
-
 .box-text.text-left {
     text-align: left;
 }
@@ -675,6 +670,10 @@ margin-bottom: 63px;
     margin-bottom: 0px;
 }
 
+.section-achievements {
+    padding-bottom: 100px;
+}
+
 /* css autoplay-progress ****************************************************************************************************************/
 
 .autoplay-progress {
@@ -721,6 +720,10 @@ margin-bottom: 63px;
         padding: 4px 12px;
         font-size: 13px;
         margin-bottom: 3px;
+    }
+
+    .section-achievements {
+        padding-bottom: 50px;
     }
 
 
@@ -809,10 +812,6 @@ margin-bottom: 63px;
         margin-bottom: 30px;
     }
 
-    .col-space {
-        display: none;
-    }
-
     .section-achievements .item-achievements .text-achievements {
         margin-bottom: 18px;
     }
@@ -824,6 +823,15 @@ margin-bottom: 63px;
 }
 
 @media only screen and (max-width: 1000px) {
+
+    
+    .col-space {
+        display: none;
+    }
+
+    .column-reverse {
+        flex-direction: column-reverse;
+    }
 
     .section-philosophy .item-philosophy {
         position: relative !important;
@@ -947,6 +955,10 @@ margin-bottom: 63px;
 }
 
 @media only screen and (max-width: 550px) {
+
+    .section-achievements {
+        padding-bottom: 20px;
+    }
 
     .section-achievements .item-achievements {
         margin-bottom: 20px;
